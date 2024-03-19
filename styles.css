@@ -12,6 +12,9 @@ body {
 
 }
 
+audio {
+    position: absolute;
+}
 .caixa-principal {
     display: block;
 
@@ -80,14 +83,14 @@ div {
 .cartola-gigante {
     width: 60px;
     
-    position: fixed;
+    position: absolute;
     transition: 0.9s;
 }
 
 .cartola-gigante:hover {
     transition: 0.9s;
     width: 60px;
-  
+  position: absolute;
 
     margin-left: 10px;
     margin-top: 10px;
@@ -147,10 +150,12 @@ a:active {
 
     .cartola-gigante {
         width: 40px;
+        position: absolute;
         
     }
     .cartola-gigante:hover {
         width: 50px;
+        position: absolute;
        }
         
 
