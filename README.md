@@ -1,1 +1,1 @@
-https://diegodev37.github.io/Projeto-Cartola-Tricolor/
+https://cartola-tricolor.netlify.app/
