@@ -10,6 +10,7 @@
 
 <body class="body-grena">
 
+ 
     <audio autoplay loop>
         <source src="/music/louco da cabeça.mp3" type="audio/mp3">
     </audio>
@@ -24,7 +25,7 @@
             
         </div>
 
-        <img class="mascote" src="assets/cartola.png" alt="logo-cartola-tricolor">
+        <img onclick="trocar(i)" id="mascote" class="mascote" src="assets/cartola.png" alt="logo-cartola-tricolor">
     </header>
 
     <div id="cartola-gigante">
@@ -36,12 +37,27 @@
         <img class="cartola-gigant2" src="/assets//v.png" alt="iconde da cartola">
     </div>
 
+    <div id="cartola-gigante3">
+        <img class="cartola-gigant3" src="/assets//v.png" alt="iconde da cartola">
+    </div>
+
 
 </body>
 <script>
+    function trocar(i){
+        if (i == 1) {
+            document.getElementById("cartola-gigante")
 
-    document.getElementById("caixa").addEventListener("click", function () {
-        document.querySelector("body").setAttribute("class", "caixa-principal");
+        }
+
+
+    }
+
+
+
+
+    document.getElementById("cartola-gigante3").addEventListener("click", function () {
+        document.querySelector("body").setAttribute("class", "cartola-gigant3");
 
     })
 
