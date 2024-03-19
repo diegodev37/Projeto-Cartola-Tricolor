@@ -78,18 +78,16 @@ div {
 
 
 .cartola-gigante {
-    width: 100px;
-    height: 100px;
-    background-color: #88002A;
-    border-radius: 50%;
+    width: 60px;
+    
     position: fixed;
     transition: 0.9s;
 }
 
 .cartola-gigante:hover {
     transition: 0.9s;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+  
 
     margin-left: 10px;
     margin-top: 10px;
@@ -148,12 +146,12 @@ a:active {
     }
 
     .cartola-gigante {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        
     }
     .cartola-gigante:hover {
-        width: 40px;
-        height: 40px;}
+        width: 50px;
+       }
         
 
 
