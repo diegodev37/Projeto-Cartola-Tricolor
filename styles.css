@@ -9,15 +9,13 @@
 body {
     min-width: 100vw;
     min-height: 100vh;
+    
 
 }
 
-audio {
-    position: absolute;
-}
+
 .caixa-principal {
     display: block;
-
     margin-right: 20px;
     background-color: #01492C;
     margin-left: 300px;
@@ -82,19 +80,36 @@ div {
 
 .cartola-gigante {
     width: 60px;
-    
     position: absolute;
     transition: 0.9s;
+    
 }
 
 .cartola-gigante:hover {
     transition: 0.9s;
-    width: 60px;
-  position: absolute;
-
+    position: absolute;
     margin-left: 10px;
     margin-top: 10px;
 }
+
+.cartola-gigant2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 0px;
+    background-color: #8C1827;
+    position: absolute;
+    transition: 0.9s;
+}
+
+.cartola-gigant2:hover {
+    transition: 0.9s;
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -118,8 +133,8 @@ a:active {
 
     .caixa-principal {
         width: 300px;
-        margin-left: 40px;
-        position: fixed;
+        margin-left: 50px;
+        position: absolute;
         display: block;
 
     }
@@ -128,18 +143,19 @@ a:active {
         height: 495px;
         width: 330px;
         transition: 0.8s;
+        
 
     }
 
     .mascote {
-        margin-left: 30px;
+        margin-left: 80px;
         position: absolute;
-        margin-top: 10px;
+        margin-top: 7px;
     }
 
     .mascote:hover {
         width: 250px;
-        
+
 
     }
 
@@ -151,13 +167,28 @@ a:active {
     .cartola-gigante {
         width: 40px;
         position: absolute;
-        
+
     }
+
     .cartola-gigante:hover {
         width: 50px;
         position: absolute;
-       }
-        
+    }
+
+    .cartola-gigant2 {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        margin-left: 5px;
+    }
+
+    .cartola-gigant2:hover {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+
+    }
+
 
 
 
