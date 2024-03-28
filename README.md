@@ -7,6 +7,6 @@
 
 https://cartola-tricolor.netlify.app/
 
-<img src="https://github.com/diegodev37/Projeto-Cartola-Tricolor/blob/main/assets/capa-do-redme_Easy-Resize.com.jpg?raw=true" heigth"70px">
+<img src="https://github.com/diegodev37/Projeto-Cartola-Tricolor/blob/main/assets/capa-do-redme_Easy-Resize.com.jpg?raw=true" heigth=70px>
 
 
