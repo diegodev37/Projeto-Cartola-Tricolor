@@ -1,7 +1,8 @@
 
 <h1>Projeto Menu cartola Tricolor</h1>
-<br>
-
+<p>Projeto que desenvolvi para homenagear meu amigo Anderson, 
+  que está sempre levando alegria e entretenimento ao maracanã com seu personagem Carlola Tricolor.</p>
+  
 <h2>Tecnologias ultilizadaz HTML/CSS/JavaScript</h2>
 <h2>Projeto ja com responsividade mobile!</h2>
 
